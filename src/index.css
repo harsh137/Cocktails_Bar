@@ -17,6 +17,7 @@
 
 html,
 body {
+    scrollbar-width: thin;
     width: 100%;
     background-color: black;
     color: white;
@@ -318,13 +319,13 @@ body {
         }
 
         .recipe {
-            @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-0;
+            @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-20;
 
             .info {
-                @apply space-y-4 lg:translate-y-20;
+                @apply space-y-4 lg:translate-y-20 bottom-10;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40 ;
                 }
             }
 
